@@ -18,7 +18,23 @@ Run
 
     mvn spring-boot:run
 
+Change HTTP Port
+----------------
+
+    mvn spring-boot:run -Drun.arguments="--server.port=9999"
+
 Remote Debug
 ------------
 
     mvn spring-boot:run -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005"
+
+Spring Boot Actuator
+--------------------
+
+Show enable Spring Boot Actuator endpoints
+
+http://localhost:8080/actuator
+
+ref:
+
+http://docs.spring.io/spring-boot/docs/1.3.5.RELEASE/reference/htmlsingle/#production-ready-endpoints
