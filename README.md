@@ -28,6 +28,17 @@ Remote Debug
 
     mvn spring-boot:run -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005"
 
+Profile
+-------
+
+* dev ( default )
+* mock
+* production
+
+change active profile
+
+    mvn spring-boot:run -Drun.profiles=mock
+
 Spring Boot Actuator
 --------------------
 

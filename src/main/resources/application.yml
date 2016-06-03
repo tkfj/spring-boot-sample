@@ -1,0 +1,20 @@
+# default
+spring:
+  profiles:
+    active: dev
+
+---
+spring:
+  profiles: dev
+  thymeleaf:
+    cache: false
+---
+spring:
+  profiles: mock
+  thymeleaf:
+    cache: false
+---
+spring:
+  profiles: production
+server:
+  port: 9999
