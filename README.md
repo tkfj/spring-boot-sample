@@ -65,4 +65,4 @@ http://localhost:8080/actuator
 
 ref:
 
-http://docs.spring.io/spring-boot/docs/1.3.5.RELEASE/reference/htmlsingle/#production-ready-endpoints
+http://docs.spring.io/spring-boot/docs/1.4.0.RELEASE/reference/htmlsingle/#production-ready-endpoints
